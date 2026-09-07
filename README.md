@@ -18,7 +18,7 @@ blog-web  :5402  ──HTTP──▶  blog-api  :3402  ──HTTP──▶  blog
 ```
 
 Los tres repositorios viven como **carpetas hermanas** llamadas exactamente `blog-api`,
-`blog-web` y `blog-ai` dentro de una carpeta común. El repositorio se llama `blog-ai-ai4devs`
+`blog-web` y `blog-ai` dentro de una carpeta común. El repositorio se llama `blog-ai-ai4devs-202609-seniors-2`
 y la carpeta no, así que **el `git clone` lleva siempre la carpeta destino escrita al final**.
 
 Forkéalo y clónalo **desde tu fork**: sobre un clon directo del repositorio del curso no
@@ -30,9 +30,9 @@ tienes permiso de escritura, y el ejercicio se entrega por pull request. Es **el
 > curso, así que funcionan en los dos casos.
 
 ```bash
-git clone git@github.com:<tu-usuario>/blog-ai-ai4devs.git blog-ai
+git clone git@github.com:<tu-usuario>/blog-ai-ai4devs-202609-seniors-2.git blog-ai
 cd blog-ai
-git remote add upstream git@github.com:LIDR-academy/blog-ai-ai4devs.git
+git remote add upstream git@github.com:LIDR-academy/blog-ai-ai4devs-202609-seniors-2.git
 git fetch upstream
 git checkout -b s7/start upstream/s7/start
 ```
